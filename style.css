@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5D76A9;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background-color: #1d335f;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw-header button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #5D76A9;
+    border: none;
+    position: absolute;
+    margin-top: 15px;
+    transform: translateX(290%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw-header:hover button {
+    opacity: 1;
+    transform: translate(300%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pw img {
+    width: 60%;
+}
+
+.pw {
+    background-color: #405888;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    min-height: 70px;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.pw-body {
+    padding: 1rem 2rem 2rem;
+}
+
+#len {
+    font-size: 1rem;
+    width: 60px;
+    height: 30px;
+}
+.pw-body input {
+    height: 20px;
+    width: 20px;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+    font-weight: normal;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #CCCCFF;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
